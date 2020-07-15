@@ -1,0 +1,9 @@
+ScrollReveal().reveal('.logo', { delay: 250 });
+ScrollReveal().reveal('.text-container', { delay: 250 });
+ScrollReveal().reveal('.cdmg-photo', { delay: 550 });
+ScrollReveal().reveal('.about-container', { delay: 350 });
+ScrollReveal().reveal('.box-container', { delay: 250 });
+ScrollReveal().reveal('.work-container', { delay: 250 });
+ScrollReveal().reveal('.education-wrap', { delay: 250 });
+ScrollReveal().reveal('.contact-me', { delay: 250 });
+ScrollReveal().reveal('footer', { delay: 550 });

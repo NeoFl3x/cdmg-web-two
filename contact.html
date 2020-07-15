@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDMG Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pangolin&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4c5ceb6a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+
+
+    <!-------------Header and Div Contenedor Start----------->
+
+    <nav>
+        <!--Logo-->
+        <a href="index.html" class="logo">CDMG Portfolio</a>
+        <!--Menu-->
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Download CV</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!----------Header and Div Contenedor End------------->
+
+    <div class="center-text-contact">
+        <h2>Contact Form</h2>
+    </div>
+    <main class="contact-container main-section">
+        <form class="contact" action="">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Email" required>
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" placeholder="Phone Number" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea>
+                <!--name="mensaje"-->
+            </fieldset>
+
+            <fieldset>
+                <legend>Devices Info</legend>
+                <p>How would you like to be contacted:</p>
+
+                <div class="form-contact">
+                    <label for="phone">Phone</label>
+                    <input type="radio" name="contacto" value="phone" id="phone">
+
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                </div>
+
+                <p>If you choose Phone, select Date and Time:</p>
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+
+                <label for="hour">Hour:</label>
+                <input type="time" id="hour" min="9:00" max="19:00">
+            </fieldset>
+
+            <input type="submit" value="Send" class="contact-form-buttom">
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <p>Step by step, heart to heart, left right left we all fall down like toy soldiers</p>
+        <p>Bit by bit, torn apart, we never win but the battle wages on for toy soldiers</p>
+        <div class="footer-social-icons">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+
+        </div>
+        <p class="copyright">Copyright by Crystian David Muriel Garzon<span>&copy;</span></p>
+    </footer>
+    <!-------------Footer End------------->
+
+    <div class="social-icons-fixed">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+
+    </div>
+</body>
+
+</html>
