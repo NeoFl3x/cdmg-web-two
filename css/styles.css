@@ -9,7 +9,7 @@ body {
 
 ul {
     list-style: none;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 a {
@@ -292,7 +292,11 @@ button:active {
     color: #8f8f8f;
 }
 
-.box-one button,
+
+/* For Future Uses */
+
+
+/*.box-one button,
 .box-two button,
 .box-three button {
     width: 100px;
@@ -301,7 +305,7 @@ button:active {
     border: none;
     outline: none;
     border-radius: 5px;
-}
+}*/
 
 .contact-me {
     width: 100%;
@@ -377,7 +381,7 @@ button:active {
     flex-direction: column;
     border-radius: 20px;
     opacity: 0.8;
-    line-height: 25px;
+    line-height: 16px;
 }
 
 .work-box-two {
@@ -391,6 +395,11 @@ button:active {
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+}
+
+.work-box-two ul {
+    margin-top: -3px;
+    margin-bottom: 20px;
 }
 
 
@@ -523,6 +532,39 @@ footer p:nth-child(2) {
 .social-icons-fixed i {
     color: #2b2b2b;
     font-size: 20px;
+}
+
+.arrow-up {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 5px;
+    right: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+}
+
+.arrow-up a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.arrow-up a:hover {
+    background-color: #000;
+    transition: all ease 0.5s;
+}
+
+.arrow-up i {
+    color: #000;
+    font-size: 20px;
+}
+
+.arrow-up a i:hover {
+    color: #fff;
+    transition: all ease 0.5s;
 }
 
 
