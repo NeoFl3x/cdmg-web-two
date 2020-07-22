@@ -535,21 +535,24 @@ footer p:nth-child(2) {
 }
 
 .arrow-up {
+    display: none;
     position: fixed;
-    width: 30px;
-    height: 30px;
+    padding: 0px;
     bottom: 5px;
     right: 15px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .arrow-up a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    padding: 0px;
-    margin: 0px;
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .arrow-up a:hover {
@@ -559,7 +562,8 @@ footer p:nth-child(2) {
 
 .arrow-up i {
     color: #000;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 12px;
 }
 
 .arrow-up a i:hover {
