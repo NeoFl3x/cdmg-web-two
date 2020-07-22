@@ -7,6 +7,8 @@ ScrollReveal().reveal('.work-container', { delay: 250 });
 ScrollReveal().reveal('.education-wrap', { delay: 250 });
 ScrollReveal().reveal('.contact-me', { delay: 250 });
 ScrollReveal().reveal('footer', { delay: 550 });
+ScrollReveal().reveal('.contact-container', { delay: 550 });
+
 
 $(document).ready(function() {
 

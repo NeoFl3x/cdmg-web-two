@@ -574,6 +574,26 @@ footer p:nth-child(2) {
 
 /* Contact Styles */
 
+.contact-footer {
+    position: relative;
+    top: 10px;
+}
+
+.contact {
+    position: relative;
+    top: -20px;
+}
+
+.center-text-contact {
+    position: relative;
+    top: -20px;
+}
+
+.fieldset-wrap {
+    position: relative;
+    top: 70px;
+}
+
 .contact-container {
     max-width: 800px;
     margin: 0 auto;
@@ -582,7 +602,7 @@ footer p:nth-child(2) {
 .contact p {
     font-size: 15px;
     color: #000;
-    margin: 20px 0 20px 0;
+    margin: 25px 0 5px 0;
 }
 
 .main-section {
@@ -598,13 +618,15 @@ footer p:nth-child(2) {
 }
 
 legend {
-    font-size: 20px;
+    font-size: 25px;
     color: #4f4f4f;
 }
 
 label {
     display: block;
     font-weight: bold;
+    position: relative;
+    top: 6px;
 }
 
 input:not([type="submit"]),
@@ -617,11 +639,13 @@ select {
     margin-bottom: 40px;
     border: none;
     border-radius: 20px;
+    position: relative;
+    top: 20px;
 }
 
 input[type="radio"] {
     width: auto;
-    margin: 0;
+    margin-top: 10px;
 }
 
 select {
@@ -636,6 +660,8 @@ textarea {
 .contact-form-buttom {
     width: 130px;
     height: 42px;
+    position: relative;
+    top: 90px;
     background-color: #000;
     color: #fff;
     font-weight: bold;
@@ -644,4 +670,10 @@ textarea {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     border: 2px solid #000;
+}
+
+.copyright-contact {
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
