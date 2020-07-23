@@ -534,7 +534,8 @@ footer p:nth-child(2) {
     font-size: 20px;
 }
 
-.arrow-up {
+
+/*.arrow-up {
     display: none;
     position: fixed;
     padding: 0px;
@@ -569,7 +570,7 @@ footer p:nth-child(2) {
 .arrow-up a i:hover {
     color: #fff;
     transition: all ease 0.5s;
-}
+}*/
 
 
 /* Contact Styles */
